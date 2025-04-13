@@ -1,0 +1,2 @@
+¿Cómo funciona?
+1.sql crea la transacción tal como debe ser sin darle a commit tran o sea sin terminar la transacción, cuando ejecutamos 2.sql se genera un bloqueo porque la transacción no ha sido culminada, desde 3.sql podemos ver que proceso está bloqueado y matarlo. El argumento "With(Nolock)" no sirve para ver el resultado si este bloqueo que estamos experimentando, Rollback como su nombre dice es para retroceder al estado previo
